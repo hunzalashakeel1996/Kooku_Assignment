@@ -1,0 +1,161 @@
+.App {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex: 1; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dateBodyContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  flex: 0.5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.drawing-area-left {
+  position: absolute;
+  top: 165px;
+  left: 170px;
+  z-index: 10;
+  width: 140px;
+}
+
+.drawing-area-right {
+  position: absolute;
+  top: 165px;
+  right: 170px;
+  z-index: 10;
+  width: 140px;
+}
+
+.canvas-container-left {
+  width: 150px;
+  height: 500px;
+  position: relative;
+  user-select: none;
+}
+
+.canvas-container-right {
+  width: 5000px;
+  height: 500px;
+  position: relative;
+  user-select: none;
+}
+
+#tshirt-div {
+  width: 452px;
+  height: 548px;
+  position: relative;
+  background-color: #fff;
+}
+
+#canvas-left {
+  position: absolute;
+  width: 5000px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  user-select: none;
+  cursor: default;
+}
+
+#canvas-right {
+  position: absolute;
+  width: 5000px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  user-select: none;
+  cursor: default;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Script";
+  src: url(./fonts/script.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Agatha";
+  src: url(./fonts/agatha.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Block";
+  src: url(./fonts/Block.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Formal Script";
+  src: url(./fonts/FormalScript.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Good Time";
+  src: url(./fonts/GOODTIME_0.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Gothic Script";
+  src: url(./fonts/GothicScript.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Kids Time";
+  src: url(./fonts/GothicScript.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Old Block";
+  src: url(./fonts/OldBlock.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Old English";
+  src: url(./fonts/OldEnglish.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Oriental Script";
+  src: url(./fonts/OrientalScript.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Pulse Font";
+  src: url(./fonts/PulseFont.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Viking Script";
+  src: url(./fonts/Viking.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Kids Time";
+  src: url(./fonts/catchup-normal.ttf) format("truetype");
+}
